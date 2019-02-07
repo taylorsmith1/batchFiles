@@ -1,4 +1,6 @@
 @echo off
+@echo on
+@echo off
 cls
 
 set /p y="What would you like to commit (* for all files): "
