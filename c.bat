@@ -1,5 +1,6 @@
 @echo off
 cls
+
 set /p type="Checkstyle(c), Javadocs(j), or both(b): "
 
 IF %type%==b GOTO ALL

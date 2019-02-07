@@ -9,7 +9,7 @@ set /p z="Are you sure you want to push (y or n): "
 
 IF %z% == n (exit /b)
 
-git add %y%
+FOR %%A IN (%y%) DO (git add %%A)
 echo.
 
 git commit -m "%x%"
