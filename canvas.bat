@@ -1,3 +1,3 @@
 @echo off
 cls
-start www.canvas.gatech.edu
+start https://canvas.gatech.edu/
